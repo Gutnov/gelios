@@ -1,0 +1,24 @@
+.error
+{
+	position: absolute;
+	bottom: 0;
+	background-color: #FF0000;
+	font-size: 12px;
+	line-height: 14px;
+	width: 100%;
+	color: #fff;
+	text-align: center;
+	transform: translateY(100%);
+	display: none;
+	height: 16px;
+	z-index: 2;
+}
+
+.error-show
+{
+	display: block;
+}
+.form__contacts-inputs .input-wrap
+{
+	width: auto;
+}
